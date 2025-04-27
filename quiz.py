@@ -159,7 +159,7 @@ df_n_cols = 24
 
 with st.sidebar:
     # st.image("./assets/savila_games_logo.png")
-    st.image("./assets/IESEG_logo.png")
+    st.image("./IESEG_logo.png")
     selected = option_menu(
         menu_title='AGILE PM 3736',
         options= ['Login','Exam'],
