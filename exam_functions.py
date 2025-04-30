@@ -1064,7 +1064,7 @@ def question_kingman_utilization(seed):
     # Step 1: Random inputs
     r_a = random.randint(25, 30)  # arrivals per week
     std_a = random.randint(60, 80)  # standard deviation of arrivals
-    r_p = random.randint(30, 40)  # processing rate per week
+    r_p = random.randint(31, 40)  # processing rate per week
     std_p = random.randint(8, 15)  # std dev of processing time
     m = 1  # number of servers
 
@@ -1119,7 +1119,7 @@ def question_kingman_wait_time(seed):
     # Step 1: Random inputs
     r_a = random.randint(25, 30)  # arrivals per week
     std_a = random.randint(60, 80)  # standard deviation of arrivals
-    r_p = random.randint(30, 40)  # processing rate per week
+    r_p = random.randint(31, 40)  # processing rate per week
     std_p = random.randint(8, 15)  # std dev of processing time
     m = 1  # number of servers
 
@@ -1187,7 +1187,7 @@ def question_kingman_inventory_in_line(seed):
     # Step 1: Random inputs
     r_a = random.randint(25, 30)  # arrivals per week
     std_a = random.randint(60, 80)  # standard deviation of arrivals
-    r_p = random.randint(30, 40)  # processing rate per week
+    r_p = random.randint(31, 40)  # processing rate per week
     std_p = random.randint(8, 15)  # std dev of processing time
     m = 1  # number of servers
 
@@ -1260,7 +1260,7 @@ def question_kingman_total_time(seed):
     # Step 1: Random inputs
     r_a = random.randint(25, 30)  # arrivals per week
     std_a = random.randint(60, 80)  # standard deviation of arrivals
-    r_p = random.randint(30, 40)  # processing rate per week
+    r_p = random.randint(31, 40)  # processing rate per week
     std_p = random.randint(8, 15)  # std dev of processing time
     m = 1  # number of servers
 
@@ -1328,7 +1328,7 @@ def question_kingman_inventory_total(seed):
     # Step 1: Random inputs
     r_a = random.randint(25, 30)  # arrivals per week
     std_a = random.randint(60, 80)  # standard deviation of arrivals
-    r_p = random.randint(30, 40)  # processing rate per week
+    r_p = random.randint(31, 40)  # processing rate per week
     std_p = random.randint(8, 15)  # std dev of processing time
     m = 1  # number of servers
 
@@ -1406,7 +1406,7 @@ def question_kingman_team_size(seed):
     # Step 1: Random inputs
     r_a = random.randint(25, 30)  # arrivals per week
     std_a = random.randint(60, 80)  # standard deviation of arrivals
-    r_p = random.randint(30, 40)  # processing rate per week
+    r_p = random.randint(31, 40)  # processing rate per week
     std_p = random.randint(8, 15)  # std dev of processing time
 
     # Step 2: Convert 120 minutes to weeks
